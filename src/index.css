@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-coffee-50: #fdfaf7;
+  --color-coffee-100: #f7f0e9;
+  --color-coffee-200: #ead9c9;
+  --color-coffee-300: #d6bba3;
+  --color-coffee-400: #bc9678;
+  --color-coffee-500: #a67c5c;
+  --color-coffee-600: #8c6248;
+  --color-coffee-700: #75503d;
+  --color-coffee-800: #614335;
+  --color-coffee-900: #50392f;
+  --color-coffee-950: #2b1d18;
+
+  --color-matcha-50: #f6f8f1;
+  --color-matcha-100: #e9f0df;
+  --color-matcha-200: #d2e1c1;
+  --color-matcha-300: #b1cc97;
+  --color-matcha-400: #8fb36f;
+  --color-matcha-500: #719752;
+  --color-matcha-600: #58783f;
+  --color-matcha-700: #445d33;
+  --color-matcha-800: #384c2b;
+  --color-matcha-900: #304127;
+  --color-matcha-950: #192314;
+}
+
+@layer base {
+  body {
+    @apply bg-coffee-50 text-coffee-950 antialiased;
+  }
+}
